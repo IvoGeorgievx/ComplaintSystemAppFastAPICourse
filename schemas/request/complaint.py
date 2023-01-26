@@ -2,5 +2,7 @@ from schemas.base import BaseComplaint
 
 
 class ComplaintIn(BaseComplaint):
-    pass
+    encoded_photo: str
+    extension: str
+
 
